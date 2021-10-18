@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Buy ticket</title>
+     <link rel="stylesheet" href="./assets/css/contact.css">
+</head>
+
+<body>
+     <div class="container">
+          <form>
+               <label for="fname">Full Name</label>
+               <input type="text" id="fname" name="firstname">
+
+               <label for="age">Age</label>
+               <input type="text" id="age" name="age">
+
+               <label for="phone_number">Phone number</label>
+               <input type="text" id="phone_number" name="phone_number">
+
+               <label for="country">Country</label>
+               <select id="country" name="country">
+                    <option value=""></option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+               </select>
+
+               <label for="payments">Payments</label>
+               <select id="payments" name="payments">
+                    <option value=""></option>
+                    <option value="Cash">Cash</option>
+                    <option value="Card">Card</option>
+                    <option value="MOMO">MOMO</option>
+               </select>
+
+               <label for="tour_name">Tour name</label>
+               <select id="tour_name" name="tour_name">
+                    <option value=""></option>
+                    <option value="Cash">SEE SING SHARE 1</option>
+                    <option value="Card">SEE SING SHARE 2</option>
+                    <option value="MOMO">SEE SING SHARE 3</option>
+               </select>
+
+               <label for="subject">Notes</label>
+               <textarea id="subject" name="subject" style="height:200px"></textarea>
+               <input type="submit" value="Buy">
+          </form>
+     </div>
+</body>
+</html>

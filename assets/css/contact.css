@@ -1,0 +1,36 @@
+input[type="text"],
+select,
+textarea {
+     border: 1px solid #ccc;
+     box-sizing: border-box;
+     margin-bottom: 16px;
+     border-radius: 5px;
+     margin-top: 6px;
+     padding: 12px;
+     width: 100%;
+}
+
+input[type="submit"] {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: #0f38ec;
+     font-style: oblique;
+     padding: 20px 100px;
+     border-radius: 3px;
+     font-weight: bold;
+     border: black;
+     font-size: 18px;
+     color: white;
+}
+
+input[type="submit"]:hover {
+     background-color: #a51427;
+}
+
+.container {
+     background: url("../img/HaAnhTuan_8.jpg") top center / cover no-repeat;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-style: oblique;
+     font-weight: bold;
+     padding: 20px 350px 350px 350px;
+     color: white;
+}

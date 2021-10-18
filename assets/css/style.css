@@ -1,0 +1,141 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 29px;
+}
+
+#header {
+     background-color: black;
+}
+
+#nav,
+.subnav {
+     list-style-type: none;
+}
+
+#nav .nav-arrow-down {
+     font-size: 20px;
+}
+
+#nav > li {
+     display: inline-block;
+     position: relative;
+}
+
+#nav > li > a {
+     color: white;
+     text-transform: uppercase;
+     line-height: 46px;
+     padding: 0 24px;
+}
+
+#nav li a {
+     display: block;
+     text-decoration: none;
+}
+
+#nav > li:hover > a,
+.subnav > li:hover > a {
+     color: rgb(255, 255, 255);
+     background-color: rgb(168, 56, 56);
+}
+
+.subnav > li > a {
+     color: rgb(255, 255, 255);
+     background-color: rgb(0, 0, 0);
+     line-height: 45px;
+     padding: 0 15px;
+}
+
+#nav li:hover .subnav {
+     display: block;
+}
+
+#nav .subnav {
+     display: none;
+     min-width: 200px;
+     position: absolute;
+     box-shadow: 0 0 10px rgba(233, 30, 30, 0.3);
+}
+
+#slider {
+     height: 750px;
+     background: url('../img/HaAnhTuan_4.jpg') top center / cover no-repeat;
+}
+
+.text-content {
+     position: absolute;
+     bottom: 15px;
+     left: 50%;
+     color: white;
+     text-align: center;
+     transform: translate(-50%);
+}
+
+.text-heading {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-description {
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+tr > td > img {
+     height: 100%;
+     width: 100%;
+}
+
+.td-img {
+     width: 600px;
+     height: auto;
+}
+
+.td-content {
+     padding-left: 50px;
+}
+
+tr > td > h2 {
+     font-size: 35px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: rgb(59, 46, 47);
+}
+
+.p-date {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+}
+
+tr > td > ul > li{
+     padding-bottom: 10px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     font-weight: lighter;
+     list-style-type: square;
+     font-weight: bold;
+}
+
+audio{
+     background-color: rgb(0, 0, 0);
+     margin-bottom: 135px;
+     width: 480px;
+}
+
+.tt-video {
+     border: solid;
+     background-color: black;
+     margin-top: 50px;
+     margin-right: 95px;
+     margin-left: 126px;
+     text-align: center;
+     font-size: 35px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: rgb(255, 255, 255);
+}
